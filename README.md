@@ -1,7 +1,5 @@
 # Twitter Data Analysis
-In this Project I am going to analyze the data from twitter i would collect the data from twitter and do a sentimental analysis. I will use Java Language code to write Map-reduce job, Flume for data collection and HiveQL to analyze and generate report.
-
-Please Read [https://github.com/bigdatadeveloper8/TwitterDataAnalysis/blob/master/Assignment%20steps.txt] to understand the workflow.
+In this Project I am going to analyze the data from twitter i would collect the data from twitter and do a sentimental analysis. I have used Java Language code to write Map-reduce job, Flume for data collection and HiveQL to analyze and generate report.
 
 Sentiment analysis is the analysis of people’s opinions, sentiments, evaluations, appraisals, attitudes and
 emotions in relation to entities like individuals, products, events, services, organizations and topics by
@@ -31,3 +29,4 @@ Architecture: I have followed below architecture to analyze the data from twitte
 
     [user](user tweets about his opinion or feedback on twitter) ---------> [Twitter] (Twitter stores tweets in Json format) ---------->[Apache Flume Server](Flume uses twitter4j API to connect to the twitter streaming API which gives constant stream of tweets. from here flume will start writing data into HDFS) ---pre-processing is done by mapreduce------> [Hadoop Cluster] ----------->[Hive](used hive UDF for classification and queries for reporting) ------------>[Report Generated from hive output]
     
+Please Read [Assignment steps.txt] to understand the workflow.
