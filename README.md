@@ -1,7 +1,7 @@
 # Twitter Data Analysis
 In this Project I am going to analyze the data from twitter i would collect the data from twitter and do a sentimental analysis. I will use Java Language code to write Map-reduce job, Flume for data collection and HiveQL to analyze and generate report.
 
-Please Read [Assignment steps.md] to uunderstand the dataflow.
+Please Read [Assignment steps.md] to understand the workflow.
 
 Sentiment analysis is the analysis of people’s opinions, sentiments, evaluations, appraisals, attitudes and
 emotions in relation to entities like individuals, products, events, services, organizations and topics by
